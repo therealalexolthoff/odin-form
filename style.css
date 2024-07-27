@@ -95,3 +95,31 @@ h4 {
   width: 54%;
   margin-bottom: 2rem;
 }
+.form-container {
+  margin-top: 5vh;
+}
+.form-container > h4 {
+  margin-left: 1rem;
+}
+form {
+  display: flex;
+  flex-direction: row;
+  gap: 2.5rem;
+}
+
+fieldset {
+  border: 0;
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+fieldset > label {
+  display: block;
+  font-weight: light;
+}
+fieldset > input {
+  height: 2.5rem;
+  width: 16rem;
+  display: inline-block;
+  margin-bottom: 2rem;
+}

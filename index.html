@@ -19,15 +19,26 @@
             <h4>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. <br> Sign up <em>now</em> to get started.</h4>
             <h4>You <em>know</em> you want to.</h4>
             
-            <div>
+            <div class="form-container">
                 <h4>Let's do this!</h4>
                 <form  method="post">
-                    <input type="text">
-                    <input type="text">
-                    <input type="email">
-                    <input type="tel">
-                    <input type="password">
-                    <input type="password">
+                    <fieldset>
+                        <label for="first-name">FIRST NAME</label>
+                        <input name="first-name" id="first-name" type="text">
+                        <label for="email">EMAIL</label>
+                        <input id="email" name="email" type="email">
+                        <label for="password">PASSWORD</label>
+                        <input id="password" name="password" type="password">
+                    </fieldset>
+                    <fieldset>
+                        <label for="last-name">LAST NAME</label>
+                        <input name="last-name" type="text">
+                        <label for="phone-number">PHONE NUMBER</label>
+                        <input id="phone-number" name="phone-number" type="tel">
+                        <label for="password-confirmation">CONFIRM PASSWORD</label>
+                        <input id="password-confirmation" name="password-confirmation" type="password">
+                    </fieldset>
+
                 </form>
             </div>
             <div>
