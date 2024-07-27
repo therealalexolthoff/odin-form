@@ -41,6 +41,8 @@ img {
 main {
   width: 100%;
   display: flex;
+  margin: 0;
+  gap: 0;
 }
 
 .decorative-left-side {
@@ -83,11 +85,11 @@ main {
   z-index: 2;
 }
 .main-form-section {
-  margin-top: 13vh;
+  flex: 1;
   margin-left: 0;
   padding: 0;
+  margin-right: 0;
   background-color: #F9FAFB;
-  padding-left: 2rem;
 }
 h4 {
   font-size: 2rem;
@@ -96,14 +98,17 @@ h4 {
   margin-right: 0;
 }
 .form-intro {
+  margin-top: 13vh;
   font-weight: 500;
   line-height: 1.1;
-  padding-bottom: 2.2rem;
+  padding: 0 0 2.2rem 2rem;
 }
 .form-container {
   margin-top: 6vh;
   padding-top: 2vh;
   background-color: white;
+  padding-left: 2rem;
+  box-shadow: 0 10px 20px -10px rgba(0, 0, 0, 0.5);
 }
 .form-container > h4, .form-intro {
   margin-left: 1rem;
@@ -129,4 +134,25 @@ fieldset > input {
   width: 20rem;
   display: inline-block;
   margin-bottom: 2rem;
+}
+button {
+  background-color: #596D48;
+  color: white;
+  font-size: 1.5rem;
+  padding: 1rem 3rem;
+  margin: 3rem 0 1rem 1rem;
+  border-radius: 6%;
+}
+.action-container {
+  margin-left: 2rem;
+}
+.action-container > p {
+  margin: 2rem 0 0 2rem;
+  font-size: 1.4rem;
+}
+input:invalid {
+  border: 1px solid red;
+}
+input:focus {
+  border: 1px solid blue;
 }
