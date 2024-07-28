@@ -27,19 +27,19 @@
                 <form  method="post">
                     <fieldset>
                         <label for="first-name">FIRST NAME</label>
-                        <input min="2" max="16" name="first-name" id="first-name" type="text">
+                        <input title="Please only enter 2-16 upper case and lower case letters." min="2" max="16" pattern="[a-zA-Z]+" name="first-name" id="first-name" type="text">
                         <label for="email">EMAIL</label>
                         <input id="email" name="email" type="email">
                         <label for="password">PASSWORD</label>
-                        <input id="password" name="password" type="password">
+                        <input pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[\W_]).+$" title="Use a password with 1 or more of each: upper case letter, lower case letter, symbol, & number" id="password" name="password" type="password">
                     </fieldset>
                     <fieldset>
                         <label  for="last-name">LAST NAME</label>
-                        <input minlength="4" maxlength="16"  name="last-name" type="text">
+                        <input title="Please only enter 4-16 upper case and lower case letters." pattern="[a-zA-Z]+" minlength="4" maxlength="16"  name="last-name" type="text">
                         <label for="phone-number">PHONE NUMBER</label>
                         <input min="10" max="10" placeholder="1234567890"  id="phone-number" name="phone-number" type="tel">
                         <label for="password-confirmation">CONFIRM PASSWORD</label>
-                        <input id="password-confirmation" name="password-confirmation" type="password">
+                        <input pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[\W_]).+$" id="password-confirmation" name="password-confirmation" type="password">
                     </fieldset>
 
                 </form>

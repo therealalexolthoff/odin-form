@@ -56,14 +56,14 @@ main {
   justify-content: center;
 }
 .logo-container {
-  margin-top: 12vh;
+  margin-top: 14vh;
   display: flex;
   justify-content: start;
   align-items: center;
   
 }
 .logo-container > img {
-  max-height: 10vh;
+  max-height: 18vh;
 }
 .logo-container > h2 {
   font-size: 4rem;
@@ -73,10 +73,10 @@ main {
 .logo-container::before {
   content: '';
   position: absolute;
-  top: 9vh;
+  top: 14vh;
   left: 0;
-  width: 24.5vw;
-  height: 14vh;
+  width: 25vw;
+  height: 18vh;
   background-color: rgba(0, 0, 0, 0.5);
   z-index: 1;
 }
@@ -85,7 +85,6 @@ main {
   z-index: 2;
 }
 .main-form-section {
-  overflow: scroll;
   flex: 1;
   margin-left: 0;
   padding: 0;
@@ -99,14 +98,14 @@ h4 {
   margin-right: 0;
 }
 .form-intro {
-  margin-top: 10vh;
+  margin-top: 5vh;
   font-weight: 500;
   line-height: 1.1;
   padding-left: 2rem;
 }
 .form-container {
-  margin-top: 6vh;
-  padding-top: 2vh;
+  margin-top: 2vh;
+  padding-top: 8vh;
   background-color: white;
   padding-left: 2rem;
   box-shadow: 0 10px 20px -10px rgba(0, 0, 0, 0.5);
