@@ -56,27 +56,27 @@ main {
   justify-content: center;
 }
 .logo-container {
-  margin-top: 15vh;
+  margin-top: 12vh;
   display: flex;
   justify-content: start;
   align-items: center;
   
 }
 .logo-container > img {
-  max-height: 12vh;
+  max-height: 10vh;
 }
 .logo-container > h2 {
-  font-size: 5rem;
+  font-size: 4rem;
   font-family: 'Norse Bold';
   color: white;
 }
 .logo-container::before {
   content: '';
   position: absolute;
-  top: 12vh;
+  top: 9vh;
   left: 0;
   width: 24.5vw;
-  height: 20vh;
+  height: 14vh;
   background-color: rgba(0, 0, 0, 0.5);
   z-index: 1;
 }
